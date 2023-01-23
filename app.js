@@ -11,10 +11,13 @@ function getCount(e) {
 
     if(userInput.value === ""){
 
+        removeAlert();
+        answerOutput.innerText = "";
         const errorMsg = document.createElement("div");
         errorMsg.classList.add("error-msg");
         errorMsg.innerText = "Please Fill In Field";
         answerOutput.appendChild(errorMsg);
+
 
     }else{
 
@@ -40,3 +43,15 @@ function getCount(e) {
 
 checkBtn.addEventListener("click", getCount);
 
+
+
+function removeAlert(){
+
+    const alertMsg = document.querySelector(".error-msg");
+
+    if(alertMsg){
+
+        alertMsg.remove();
+
+    }
+}
