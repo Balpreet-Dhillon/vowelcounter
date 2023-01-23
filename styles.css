@@ -1,5 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+
+body{
+
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+
+}
+
 .container{
 
+    background-color: rgb(236, 210, 42);
+    margin: auto;
     text-align: center;
+    position: relative;
+    bottom: -13rem;
+    padding: 5rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: white 3px solid;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+#vowel-count{
+
+    margin-top: 3rem;
+    padding: 2rem 4rem;
+    background-color: rgb(21, 21, 21);
+    border-radius: 30px;
+    color: white;
+    border: black 1px solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+#user-input{
+
+    padding: 0.5rem 2rem;
+    border: black 1.5px solid;
+  
+
+}
+
+#check-btn{
+
+    padding: 0.44rem 1.5rem;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
 
 }
